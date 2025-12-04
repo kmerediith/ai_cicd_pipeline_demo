@@ -20,6 +20,37 @@ A minimal, extensible Python scaffold that matches the project concepts:
 ## Running this Project Locally: 
 in your preferred IDE run this file: run_pipeline.py
 
+## Example Output: 
+```
+Pipeline run: AI Driven 
+   Intelligent CI/CD    
+   Pipeline (Starter)   
+┏━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Stage                ┃
+┡━━━━━━━━━━━━━━━━━━━━━━┩
+│ CommitIngestor ✓     │
+│ AnalyzerAI ✓         │
+│ TestSelector ✓       │
+│ FlakyTestManager ✓   │
+│ RiskPredictorAI ✓    │
+│ BuildExecutor ✓      │
+│ TestRunner ✓         │
+│ DeploymentPlanner ✓  │
+│ Deployer ✓           │
+│ MonitorAgent ✓       │
+│ RollbackController ✓ │
+└──────────────────────┘
+
+Summary:
+- git_hash: abc123
+- changed_files: ('src/app.py', 'tests/test_app.py')
+- risk_score: 0.4
+- deploy_strategy: canary
+- deploy_status: success
+- anomalies: ()
+
+```
+
 ## Project Structure
 ```
 ai_cicd_pipeline_demo/
