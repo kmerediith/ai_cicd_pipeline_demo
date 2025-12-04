@@ -1,0 +1,16 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-cicd-pipeline"
+version = "0.1.0"
+description = "Starter scaffold for an AI-driven CI/CD pipeline with declarative config and immutable state."
+authors = [{ name = "Group 1" }]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]

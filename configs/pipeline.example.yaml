@@ -1,0 +1,13 @@
+
+name: "AI Driven Intelligent CI/CD Pipeline (Starter)"
+stage_policy:
+  block_deploy_if_risk_gt: 0.85
+  min_coverage_for_deploy: 0.70
+  allow_strategies: ["canary", "blue_green", "rolling"]
+monitoring:
+  latency_p99_ms: 1000
+  error_rate_pct: 1.0
+  auto_rollback_on_violation: true
+parameters:
+  environment: "dev"
+  region: "us-east-1"
