@@ -20,22 +20,36 @@ A minimal, extensible Python scaffold that matches the project concepts:
 ## Running this Project Locally: 
 in your preferred IDE run this file: run_pipeline.py
 
-## Project layout
+## Project Structure
 
-```
-ai_cicd_pipeline/
-  ├─ src/ai_cicd_pipeline/
-  │   ├─ stages/                 # Stage skeletons (AnalyzerAI, TestSelector, etc.)
-  │   ├─ services/               # Cross-cutting services (Alerting, etc.)
-  │   ├─ config.py               # Declarative config models
-  │   ├─ pipeline_state.py       # Immutable PipelineState
-  │   ├─ orchestrator.py         # PipelineOrchestrator
-  │   └─ cli.py                  # CLI entrypoint
-  ├─ configs/pipeline.example.yaml
-  ├─ requirements.txt
-  ├─ .gitignore
-  └─ README.md
-```
+ai_cicd_pipeline_demo/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── run_pipeline.py
+├── configs/
+│   └── base_config.yaml
+├── src/
+│   └── ai_cicd_pipeline/
+│       ├── __init__.py
+│       ├── cli.py
+│       ├── config.py
+│       ├── orchestrator.py
+│       ├── pipeline_state.py
+│       ├── services/
+│       │   └── __init__.py
+│       └── stages/
+│           ├── __init__.py
+│           ├── analyzer_ai.py
+│           ├── deploy_planner.py
+│           ├── monitor.py
+│           ├── risk_assessment.py
+│           └── test_selector.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_config.py
+│   └── test_pipeline.py
+
 
 ## Notes
 
