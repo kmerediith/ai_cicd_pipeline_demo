@@ -21,7 +21,7 @@ A minimal, extensible Python scaffold that matches the project concepts:
 in your preferred IDE run this file: run_pipeline.py
 
 ## Project Structure
-
+```
 ai_cicd_pipeline_demo/
 ├── README.md
 ├── requirements.txt
@@ -49,7 +49,7 @@ ai_cicd_pipeline_demo/
 │   ├── __init__.py
 │   ├── test_config.py
 │   └── test_pipeline.py
-
+```
 
 ## Notes
 
