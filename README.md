@@ -1,5 +1,5 @@
 
-# AI-Driven Intelligent CI/CD Pipeline — Starter Template (VS Code)
+# AI-Driven Intelligent CI/CD Pipeline — Starter Template (GPT5.1)
 
 A minimal, extensible Python scaffold that matches the project concepts:
 - Declarative "what-not-how" configuration
@@ -7,19 +7,18 @@ A minimal, extensible Python scaffold that matches the project concepts:
 - Staged orchestration with AI hooks (selectors, risk, deploy planner, monitor)
 - Simple CLI to run a no-op flow end-to-end
 
-## Quick start
+## Quick start to Add this Repository Locally
+1. Install Git https"//git-scm.com/downloads
+2. Open a terminal. 
+3. Go to your dev folder: 
+   `cd /path/to/projects`
+4. Clone the repo:
+`git clone https://github.com/kmerediith/ai_cicd_pipeline_demo.git`
+5. Access New Folder 
+`cd ai_cicd_pipeline_demo`
 
-```bash
-# 1) Create a virtual env
-python -m venv .venv
-source .venv/bin/activate  # on Windows: .venv\Scripts\activate
-
-# 2) Install deps
-pip install -r requirements.txt
-
-# 3) Run the pipeline (dry-run)
-python -m ai_cicd_pipeline --config configs/pipeline.example.yaml
-```
+## Running this Project Locally: 
+in your preferred IDE run this file: run_pipeline.py
 
 ## Project layout
 
